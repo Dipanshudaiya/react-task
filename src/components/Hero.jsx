@@ -12,13 +12,11 @@ function Hero() {
           className="w-full h-full object-cover"
         />
        
-        <div className="absolute inset-0 bg-black/50 backdrop-blur-[2px]"></div>
-      </div>
-
-    
+        <div className="absolute inset-0 bg-black/40 backdrop-blur-[2px]"></div>
+      </div>    
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
         <h1 className="text-4xl md:text-6xl font-black text-white mb-6 uppercase tracking-tight leading-tight">
-          Elevate Your <span className="text-indigo-400 font-outline-2">Grooming</span> Routine
+          Elevate Your <span className="text-indigo-500 font-outline-1">Grooming</span> Routine
         </h1>
         
         <p className="text-lg md:text-xl text-gray-200 mb-10 max-w-2xl mx-auto font-medium leading-relaxed">

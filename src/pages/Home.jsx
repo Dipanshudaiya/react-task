@@ -6,6 +6,7 @@ import Footer from "../components/Footer"
 import { products as mockProducts } from "../data/products"
 
 function Home() {
+  const addToCart = useCartStore((state) => state.addToCart);
   const [products, setProducts] = useState([])
 
   useEffect(() => {

@@ -25,12 +25,12 @@ function Footer() {
         <p>
           "© 2026 React Task. All rights reserved.
         </p>
-        <div className="flex gap-6">
+        <div className="flex gap-6 ">
           <a href="#">Home</a><p/>
           <a href="#">Login</a><p/>
           <a href="#">Register</a>
         </div>
-        <div className="flex gap-4 text-lg">
+        <div className="flex gap-4 text-lg py-6">
           <span>🌐</span>
           <span>📘</span>
           <span>🐦</span>

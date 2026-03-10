@@ -2,10 +2,11 @@ import { useCartStore } from '../store/useCartStore';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
+
 function Cart() {
   const items = useCartStore((state) => state.items);
-  const removeFromCart = useCartStore((state) => state.removeFromCart);
-  const clearCart = useCartStore((state) => state.clearCart);
+ // const removeFromCart = useCartStore((state) => state.removeFromCart);
+ // const clearCart = useCartStore((state) => state.clearCart);
 
   const total = items.reduce((sum, item) => sum + item.price, 0);
 
@@ -42,6 +43,7 @@ function Cart() {
                   >
                     Remove
                   </button>
+                
                 </li>
               ))}
             </ul>
